@@ -17,17 +17,21 @@ Clone the project using this command:
 ### Python Virtual Environment Installation:
 Open a new terminal and type the following commands:<br />
 `cd server` <br />
-`python -m venv venv` <br />
 Windows OS:
+`python -m venv venv` <br />
 `source venv/Scripts/activate`<br />
 MacOS:
+`python3 -m venv venv` <br />
 `source venv/bin/activate`<br />
 The (venv) indicates you have activated the virtual environment.
 
 #### Back-end libraries installation:
 `cd code` <br />
 `pip install -r requirements.txt` <br />
+Windows OS:
 `python app.py` <br />
+MacOS:
+`python3 app.py` <br />
 That should start the back-end server.
 
 #### Front-end libraries installation:
