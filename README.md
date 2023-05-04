@@ -6,7 +6,7 @@
 2) Flask - Back end
 
 Clone the project using this command:
-`git clone https://github.com/hnguyen-sjsu/job-portal`
+`https://github.com/lhkhoi95/AKKA-JobFinder`
 
 ## Installation Guide
 ### Softwares Requirements:
