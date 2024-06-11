@@ -75,6 +75,11 @@ MacOS: <br/>
 `source venv/bin/activate`<br />
 The (venv) indicates you have activated the virtual environment.
 
+### Adding secret keys
+Under the server/code directory, create a file named `.env` and add these 2 secret keys: <br/>
+`JWT_SECRET_KEY=your_secret_key` <br/>
+`SECRET_KEY=your_secret_key`
+
 #### Back-end libraries installation:
 `cd code` <br />
 `pip install -r requirements.txt` <br />
@@ -83,6 +88,7 @@ Windows OS: <br/>
 MacOS: <br/>
 `python3 app.py` <br />
 That should start the back-end server.
+
 
 #### Front-end libraries installation:
 Open another terminal and type the following commands (make sure you are in the root folder):<br />
